@@ -1,0 +1,8 @@
+features
+	Root
+		optional
+			Child1 {Weight 3}
+			Child2 {Weight 2}
+
+constraints
+	(!Child2 & Child1 | !Child2 & !Child1 | Child2 & !Child1)

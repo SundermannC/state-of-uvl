@@ -1,0 +1,17 @@
+features
+    Pizza
+        mandatory
+            Dough {Calories 10, Type 'Wheat'}
+            Cheese {Calories 5}
+            Sauce
+                alternative
+                    Tomato {Calories 2}
+                    Pesto {Calories 4}
+        optional
+            Mushrooms {Calories 1}
+            Ham {Calories 7}
+            Pineapple {Calories 2}
+            "Greetings on box"
+
+constraints
+    Pineapple => Ham

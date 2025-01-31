@@ -1,0 +1,17 @@
+features
+    Pizza
+        mandatory
+            Dough
+            Cheese
+            Sauce
+                alternative
+                    Tomato
+                    Pesto
+        optional
+            Mushrooms
+            Ham
+            Pineapple
+            "Greetings on box"
+
+constraints
+    Pineapple => Ham
